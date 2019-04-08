@@ -40,17 +40,6 @@
             <version>3.14.0</version>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20160212</version>
-        </dependency>
-        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
             <version>3.141.59</version>
@@ -59,7 +48,7 @@
     </dependencies>
 
     <properties>
-        <selenium.test.webbrowser>firefox</selenium.test.webbrowser>
+        <selenium.test.webbrowser>chrome</selenium.test.webbrowser>
         <selenium.test.jvmargs><![CDATA[-Dbrowser=${selenium.test.webbrowser}]]></selenium.test.jvmargs>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
